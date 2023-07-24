@@ -1,11 +1,5 @@
-import { UserButton } from "@clerk/nextjs";
-
 const DashboardPage = () => {
-  return (
-    <div>
-      <UserButton afterSignOutUrl="/" />
-    </div>
-  );
+  return <div>Dashboard</div>;
 };
 
 export default DashboardPage;
